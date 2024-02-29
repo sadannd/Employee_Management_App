@@ -9,7 +9,7 @@ public class EmployeeMapper {
     {
         return new EmployeeDto(
                 employee.getId(),
-                employee.getFirsName(),
+                employee.getFirstName(),
                 employee.getLastName(),
                 employee.getEmail()
         );
@@ -19,7 +19,7 @@ public class EmployeeMapper {
         {
             return new Employee(
                     employeeDto.getId(),
-                    employeeDto.getFirsName(),
+                    employeeDto.getFirstName(),
                     employeeDto.getLastName(),
                     employeeDto.getEmail()
             );
